@@ -1,6 +1,6 @@
 # Pushes to github. Because I'm lazy! Requires bash to be installed, and origin to be set using "git remote add origin (github url)"
 
-cd "C:\Users\jjtat\Projects\Python Game Engine"
+cd "C:\Users\jjtat\Projects\Minecraft mod"
 git init
 git add .
 git commit -m "Automated update"
