@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "ttoi:models/armour/green_leggings"
+    }
+}

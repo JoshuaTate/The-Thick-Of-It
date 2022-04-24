@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_farmland",
+  "textures": {
+    "dirt": "ttoi:blocks/wheatsoil",
+    "top": "ttoi:blocks/wheatsoil_farmland_moist"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "ttoi:block/wheatsoil_farmland"
+      },
+      {
+        "model": "ttoi:block/wheatsoil_farmland",
+        "y": 90
+      },
+      {
+        "model": "ttoi:block/wheatsoil_farmland",
+        "y": 180
+      },
+      {
+        "model": "ttoi:block/wheatsoil_farmland",
+        "y": 270
+      }
+    ]
+  }
+}

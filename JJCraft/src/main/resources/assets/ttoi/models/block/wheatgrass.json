@@ -1,0 +1,9 @@
+{
+    "parent": "minecraft:block/cube_bottom_top",
+    "textures": {
+        "top": "ttoi:blocks/wheatgrass_top",
+        "bottom": "ttoi:blocks/wheatsoil",
+        "side": "ttoi:blocks/wheatgrass_side",
+        "particle": "ttoi:blocks/wheatsoil"
+    }
+}

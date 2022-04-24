@@ -1,0 +1,24 @@
+{
+  "variants": {
+    "snowy=false": [
+      {
+        "model": "ttoi:block/wheatgrass"
+      },
+      {
+        "model": "ttoi:block/wheatgrass",
+        "y": 90
+      },
+      {
+        "model": "ttoi:block/wheatgrass",
+        "y": 180
+      },
+      {
+        "model": "ttoi:block/wheatgrass",
+        "y": 270
+      }
+    ],
+    "snowy=true": {
+      "model": "ttoi:block/wheatgrass_snow"
+    }
+  }
+}

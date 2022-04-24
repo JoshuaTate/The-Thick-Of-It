@@ -1,0 +1,20 @@
+{
+    "ItemGroup.ttoi": "The Thick Of It",
+    "item.ttoi.green_ingot": "Green Ingot",
+    "item.ttoi.green_helmet": "Green Helmet",
+    "item.ttoi.green_chestplate": "Green Chestplate",
+    "item.ttoi.green_leggings": "Green Leggings",
+    "item.ttoi.green_boots": "Green Boots",
+    "item.ttoi.corbynite_ingot": "Corbynite Ingot",
+    "item.ttoi.corbynite_sword": "Corbynite Sword",
+    "item.ttoi.corbynite_picaxe": "Corbynite Picaxe",
+    "item.ttoi.corbynite_axe": "Corbynite Axe",
+    "item.ttoi.corbynite_shovel": "Corbynite Shovel",
+    "item.ttoi.corbynite_hoe": "Corbynite Hoe",
+    "item.ttoi.teleport_staff": "Staff of Infinite Poverty",
+	"block.ttoi.corbynite": "Corbynite",
+	"block.ttoi.cnfurnace": "Carbon-Neutral Furnace",
+	"block.ttoi.wheatsoil": "Wheatsoil",
+    "block.ttoi.wheatgrass": "Wheatgrass",
+    "block.ttoi.wheatsoil_farmland": "Wheatsoil farmland"
+}

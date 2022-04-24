@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "ttoi:blocks/cnfurnace_top",
+    "front": "ttoi:blocks/cnfurnace_front",
+    "side": "ttoi:blocks/cnfurnace_side"
+  }
+}
