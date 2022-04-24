@@ -46,7 +46,13 @@ public class BlockInit {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, TTOIMain.MOD_ID);
 
     public static final RegistryObject<Block> CORBYNITE = BLOCKS.register("corbynite",
-            () -> new Block(Block.Properties.of(Material.STONE).strength(4f, 1200f).requiresCorrectToolForDrops().lightLevel((state) -> 15)));
+            () -> new Block(Block.Properties.of(Material.STONE).strength(4f, 1200f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> CORRUPTED_BLOCK = BLOCKS.register("corrupted_block",
+            () -> new Block(Block.Properties.of(Material.STONE).strength(20f, 5000f).requiresCorrectToolForDrops().lightLevel((state) -> 0)));
+
+    public static final RegistryObject<Block> ASCENDED_BLOCK = BLOCKS.register("ascended_block",
+            () -> new Block(Block.Properties.of(Material.STONE).strength(20f, 5000f).requiresCorrectToolForDrops().lightLevel((state) -> 15)));
 
     public static final RegistryObject<Block> WHEATSOIL = BLOCKS.register("wheatsoil",
             () -> new Wheatsoil(Block.Properties.copy(Blocks.DIRT)));

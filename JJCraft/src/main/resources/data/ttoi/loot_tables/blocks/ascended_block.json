@@ -2,11 +2,11 @@
     "type": "minecraft:block",
     "pools": [
     {
-        "rolls": 9.0,
+        "rolls": 1.0,
         "entries": [
         {
             "type": "minecraft:item",
-            "name": "ttoi:corbynite_ingot"
+            "name": "ttoi:ascended_block"
         }
         ]
     }

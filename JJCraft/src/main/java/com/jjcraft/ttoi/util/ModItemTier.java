@@ -15,8 +15,14 @@ public enum ModItemTier implements Tier {
     GREEN(0, 25, 1.0F, 0.0F, 0, () -> {
         return Ingredient.of(ItemInit.GREEN_INGOT.get());
     }),
-    CORBYN(4, 2000, 10.0F, 4.0F, 15, () -> {
-        return Ingredient.of(BlockInit.CORBYNITE.get());
+    CORBYN(0, 25, 1.0F, 0.0F, 0, () -> {
+        return Ingredient.of(ItemInit.GREEN_INGOT.get());
+    }),
+    CORRUPTED(4, 5000, 20.0F, 20.0F, 0, () -> {
+        return Ingredient.of(BlockInit.CORRUPTED_BLOCK.get());
+    }),
+    ASCENDED(4, 5000, 10.0F, 10.0F, 10, () -> {
+        return Ingredient.of(BlockInit.ASCENDED_BLOCK.get());
     });
 
     private final int level;

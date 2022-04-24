@@ -1,6 +1,8 @@
 package com.jjcraft.ttoi.init;
 
 import com.jjcraft.ttoi.TTOIMain;
+import com.jjcraft.ttoi.armour.AscendedArmourItem;
+import com.jjcraft.ttoi.armour.CorruptedArmourItem;
 import com.jjcraft.ttoi.armour.ModArmourMaterial;
 import com.jjcraft.ttoi.items.GreenIngot;
 import com.jjcraft.ttoi.items.PovertyStaff;
@@ -52,6 +54,30 @@ public class ItemInit {
 
     public static final RegistryObject<Item> GREEN_BOOTS = ITEMS.register("green_boots",
             () -> new ArmorItem(ModArmourMaterial.GREEN, EquipmentSlot.FEET, new Item.Properties().tab(ModCreativeTab.instance)));
+
+    public static final RegistryObject<Item> CORRUPTED_HELMET = ITEMS.register("corrupted_helmet",
+            () -> new CorruptedArmourItem(ModArmourMaterial.CORRUPTED, EquipmentSlot.HEAD, new Item.Properties().tab(ModCreativeTab.instance)));
+
+    public static final RegistryObject<Item> CORRUPTED_CHESTPLATE = ITEMS.register("corrupted_chestplate",
+            () -> new CorruptedArmourItem(ModArmourMaterial.CORRUPTED, EquipmentSlot.CHEST, new Item.Properties().tab(ModCreativeTab.instance)));
+
+    public static final RegistryObject<Item> CORRUPTED_LEGGINGS = ITEMS.register("corrupted_leggings",
+            () -> new CorruptedArmourItem(ModArmourMaterial.CORRUPTED, EquipmentSlot.LEGS, new Item.Properties().tab(ModCreativeTab.instance)));
+
+    public static final RegistryObject<Item> CORRUPTED_BOOTS = ITEMS.register("corrupted_boots",
+            () -> new CorruptedArmourItem(ModArmourMaterial.CORRUPTED, EquipmentSlot.FEET, new Item.Properties().tab(ModCreativeTab.instance)));
+
+    public static final RegistryObject<Item> ASCENDED_HELMET = ITEMS.register("ascended_helmet",
+            () -> new AscendedArmourItem(ModArmourMaterial.ASCENDED, EquipmentSlot.HEAD, new Item.Properties().tab(ModCreativeTab.instance)));
+
+    public static final RegistryObject<Item> ASCENDED_CHESTPLATE = ITEMS.register("ascended_chestplate",
+            () -> new AscendedArmourItem(ModArmourMaterial.ASCENDED, EquipmentSlot.CHEST, new Item.Properties().tab(ModCreativeTab.instance)));
+
+    public static final RegistryObject<Item> ASCENDED_LEGGINGS = ITEMS.register("ascended_leggings",
+            () -> new AscendedArmourItem(ModArmourMaterial.ASCENDED, EquipmentSlot.LEGS, new Item.Properties().tab(ModCreativeTab.instance)));
+
+    public static final RegistryObject<Item> ASCENDED_BOOTS = ITEMS.register("ascended_boots",
+            () -> new AscendedArmourItem(ModArmourMaterial.ASCENDED, EquipmentSlot.FEET, new Item.Properties().tab(ModCreativeTab.instance)));
 
     public ItemInit() {
     }

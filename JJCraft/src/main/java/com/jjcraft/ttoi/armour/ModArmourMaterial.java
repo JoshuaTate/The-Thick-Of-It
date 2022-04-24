@@ -1,6 +1,7 @@
 package com.jjcraft.ttoi.armour;
 
 import com.jjcraft.ttoi.TTOIMain;
+import com.jjcraft.ttoi.init.BlockInit;
 import com.jjcraft.ttoi.init.ItemInit;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
@@ -15,6 +16,15 @@ import java.util.function.Supplier;
 public enum ModArmourMaterial implements ArmorMaterial {
     GREEN(TTOIMain.MOD_ID + ":green", 20, new int[]{4, 7, 9, 4}, 50, SoundEvents.ARMOR_EQUIP_LEATHER, 1.0F, 0.1F, () -> {
         return Ingredient.of(ItemInit.GREEN_INGOT.get());
+    }),
+    CORBYN(TTOIMain.MOD_ID + ":corbyn", 1000, new int[]{4, 7, 9, 4}, 50, SoundEvents.ARMOR_EQUIP_IRON, 1.0F, 0.1F, () -> {
+        return Ingredient.of(ItemInit.GREEN_INGOT.get());
+    }),
+    CORRUPTED(TTOIMain.MOD_ID + ":corrupted", 5000, new int[]{4, 7, 9, 4}, 50, SoundEvents.ARMOR_EQUIP_DIAMOND, 1.0F, 0.1F, () -> {
+        return Ingredient.of(BlockInit.CORRUPTED_BLOCK.get());
+    }),
+    ASCENDED(TTOIMain.MOD_ID + ":ascended", 5000, new int[]{4, 7, 9, 4}, 50, SoundEvents.ARMOR_EQUIP_GOLD, 1.0F, 0.1F, () -> {
+        return Ingredient.of(BlockInit.ASCENDED_BLOCK.get());
     });
 
     private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};

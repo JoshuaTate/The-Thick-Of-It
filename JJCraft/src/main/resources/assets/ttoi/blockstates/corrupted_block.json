@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "ttoi:block/corrupted_block"
+        }
+    }
+}

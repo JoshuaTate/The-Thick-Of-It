@@ -2,6 +2,8 @@
     "replace": false,
     "values": [
         "ttoi:corbynite",
-		"ttoi:cnfurnace"
+		"ttoi:cnfurnace",
+        "ttoi:corrupted_block",
+        "ttoi:ascended_block"
     ]
 }

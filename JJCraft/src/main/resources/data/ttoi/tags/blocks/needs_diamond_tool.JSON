@@ -1,1 +1,7 @@
-{}
+{
+  "replace": false,
+  "values": [
+    "ttoi:corrupted_block",
+    "ttoi:ascended_block"
+  ]
+}
