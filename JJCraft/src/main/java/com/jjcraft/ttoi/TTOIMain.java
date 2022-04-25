@@ -2,6 +2,7 @@ package com.jjcraft.ttoi;
 
 import com.jjcraft.ttoi.init.BlockInit;
 import com.jjcraft.ttoi.init.ItemInit;
+import com.jjcraft.ttoi.init.TileEntityInit;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -21,6 +22,7 @@ public class TTOIMain {
         modEventBus.addListener(this::setup);
         ItemInit.ITEMS.register(modEventBus);
         BlockInit.BLOCKS.register(modEventBus);
+        TileEntityInit.TILE_ENTITY_TYPES.register(modEventBus);
         MinecraftForge.EVENT_BUS.register(this);
     }
 

@@ -5,6 +5,7 @@ import com.jjcraft.ttoi.blocks.CNFurnace;
 import com.jjcraft.ttoi.blocks.Wheatgrass;
 import com.jjcraft.ttoi.blocks.Wheatsoil;
 import com.jjcraft.ttoi.blocks.Wheatsoil_Farmland;
+import com.jjcraft.ttoi.entities.BaneOfTheRich;
 import com.jjcraft.ttoi.util.HelperMethods;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -63,8 +64,14 @@ public class BlockInit {
     public static final RegistryObject<Block> WHEATSOIL_FARMLAND = BLOCKS.register("wheatsoil_farmland",
             () -> new Wheatsoil_Farmland(Block.Properties.copy(Blocks.FARMLAND)));
 
+    public static final RegistryObject<Block> BERNIE_SAND = BLOCKS.register("bernie_sand",
+            () -> new Block(Block.Properties.copy(Blocks.SAND)));
+
     public static final RegistryObject<Block> CNFURNACE = BLOCKS.register("cnfurnace",
             () -> new CNFurnace(Block.Properties.copy(Blocks.FURNACE)));
+
+    public static final RegistryObject<Block> BANE_OF_THE_RICH = BLOCKS.register("bane_of_the_rich",
+            () -> new BaneOfTheRich(Block.Properties.copy(Blocks.IRON_BLOCK)));
 
     public BlockInit() {
     }

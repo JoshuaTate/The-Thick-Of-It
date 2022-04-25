@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "ttoi:blocks/bane_of_the_rich"
+  }
+}
