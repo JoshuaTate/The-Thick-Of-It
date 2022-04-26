@@ -1,4 +1,9 @@
 # The-Thick-Of-It
+
+*Type of project:* Game mod
+
+*State of completion:* In progress
+
 A Minecraft mod made with a friend whose name also starts with a J, hence the JJCraft placeholder. Just for fun!
 
 Having dived into Python and GDScript for my flagship project, Taking London, I realised I'd left a whole in my Java knowledge. What better excuse is there to start
