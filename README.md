@@ -1,6 +1,6 @@
 # The-Thick-Of-It
 
-*Type of project:* Game mod
+*Type of project:* Third-party additional content to existing commercial game
 
 *State of completion:* In progress
 
