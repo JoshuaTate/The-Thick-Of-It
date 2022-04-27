@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+    	"north": "custommachinery:block/custom_machine_side",
+    	"east": "minecraft:block/custom_machine_side",
+    	"south": "minecraft:block/custom_machine_side",
+    	"west": "minecraft:block/custom_machine_side",
+    	"top": "custommachinery:block/custom_machine_side",
+    	"down": "custommachinery:block/custom_machine_side",
+    	"particle": "custommachinery:block/custom_machine_side"
+    }
+}
