@@ -68,8 +68,12 @@ public class BlockInit {
     public static final RegistryObject<Block> BERNIE_SAND = BLOCKS.register("bernie_sand",
             () -> new Block(Block.Properties.copy(Blocks.SAND)));
 
+
     public static final RegistryObject<Block> CNFURNACE = BLOCKS.register("cnfurnace",
             () -> new CNFurnace(Block.Properties.copy(Blocks.FURNACE)));
+
+    public static final RegistryObject<Block> COMPACTOR = BLOCKS.register("compactor",
+            () -> new CNFurnace(Block.Properties.copy(Blocks.CRAFTING_TABLE)));
 
     public static final RegistryObject<Block> BANE_OF_THE_RICH = BLOCKS.register("bane_of_the_rich",
             () -> new BaneOfTheRich(Block.Properties.copy(Blocks.IRON_BLOCK)));

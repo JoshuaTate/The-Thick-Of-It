@@ -44,6 +44,11 @@ public class PovertyStaff extends Item {
     }
 
     @Override
+    public int getEnchantmentValue() {
+        return 10;
+    }
+
+    @Override
     public void appendHoverText(ItemStack stack, @Nullable Level worldIn, List<Component> tooltip, TooltipFlag flagIn) {
         if (KeyboardHelper.isHoldingShift()){
             tooltip.add(new TextComponent("teleports you where you're looking"));
