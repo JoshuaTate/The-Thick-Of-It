@@ -6,6 +6,7 @@ import com.jjcraft.ttoi.blocks.Wheatgrass;
 import com.jjcraft.ttoi.blocks.Wheatsoil;
 import com.jjcraft.ttoi.blocks.Wheatsoil_Farmland;
 import com.jjcraft.ttoi.entities.BaneOfTheRich;
+import com.jjcraft.ttoi.blocks.TestBlock;
 import com.jjcraft.ttoi.util.HelperMethods;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -72,6 +73,9 @@ public class BlockInit {
 
     public static final RegistryObject<Block> BANE_OF_THE_RICH = BLOCKS.register("bane_of_the_rich",
             () -> new BaneOfTheRich(Block.Properties.copy(Blocks.IRON_BLOCK)));
+
+    public static final RegistryObject<Block> TEST_BLOCK = BLOCKS.register("test_block",
+            () -> new TestBlock(Block.Properties.copy(Blocks.DIRT)));
 
     public BlockInit() {
     }
