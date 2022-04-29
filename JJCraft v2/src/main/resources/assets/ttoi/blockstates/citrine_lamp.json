@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "clicked=false": { "model": "ttoi:block/citrine_lamp_off" },
+    "clicked=true": { "model": "ttoi:block/citrine_lamp_on" }
+  }
+}

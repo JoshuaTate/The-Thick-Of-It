@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "ttoi:dowsing_rod"
+    },
+    "title": "Dowsing Rod",
+    "description": "If it doesn't work, the Rod doesn't like you!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "ttoi:ttoi",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ttoi:dowsing_rod"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

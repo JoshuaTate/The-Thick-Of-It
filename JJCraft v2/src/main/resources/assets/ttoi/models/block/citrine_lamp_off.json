@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ttoi:block/citrine_lamp_off"
+  }
+}

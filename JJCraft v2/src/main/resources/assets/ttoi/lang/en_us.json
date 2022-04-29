@@ -1,0 +1,89 @@
+{
+  "item.ttoi.citrine": "Citrine",
+  "item.ttoi.raw_citrine": "Raw Citrine",
+  "item.ttoi.dowsing_rod": "Dowsing Rod",
+  "item.ttoi.cucumber": "Cucumber",
+  "item.ttoi.coal_coke": "Coal Coke",
+
+  "item.ttoi.citrine_pickaxe": "Citrine Pickaxe",
+  "item.ttoi.citrine_axe": "Citrine Axe",
+  "item.ttoi.citrine_shovel": "Citrine Shovel",
+  "item.ttoi.citrine_hoe": "Citrine Hoe",
+  "item.ttoi.citrine_sword": "Citrine Sword",
+
+  "item.ttoi.citrine_helmet": "Citrine Helmet",
+  "item.ttoi.citrine_chestplate": "Citrine Chestplate",
+  "item.ttoi.citrine_leggings": "Citrine Leggings",
+  "item.ttoi.citrine_boots": "Citrine Boots",
+
+  "item.ttoi.magic_dust": "Magic Dust",
+  "item.ttoi.data_tablet": "Data Tablet",
+  "item.ttoi.kaupenbow": "Kaupenbow",
+
+  "item.ttoi.cucumber_seeds": "Cucumber Seeds",
+  "item.ttoi.citrine_staff": "Citrine Staff",
+
+  "item.ttoi.bar_brawl_music_disc": "Bar Brawl Music Disc",
+  "item.ttoi.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
+
+  "item.minecraft.potion.effect.freeze_potion": "Freeze Potion",
+  "item.minecraft.splash_potion.effect.freeze_potion": "Splash Potion of Freeze",
+  "item.minecraft.lingering_potion.effect.freeze_potion": "Lingering Potion of Freeze",
+
+  "item.ttoi.gem_cutter_tool": "Gem Cutter Tool",
+  "item.ttoi.honey_bucket": "Honey Bucket",
+
+  "item.ttoi.raccoon_spawn_egg": "Raccoon Spawn Egg",
+
+  "block.ttoi.citrine_block": "Citrine Block",
+  "block.ttoi.raw_citrine_block": "Raw Citrine Block",
+  "block.ttoi.citrine_ore": "Citrine Ore",
+  "block.ttoi.deepslate_citrine_ore": "Deepslate Citrine Ore",
+  "block.ttoi.netherrack_citrine_ore": "Netherrack Citrine Ore",
+  "block.ttoi.endstone_citrine_ore": "Endstone Citrine Ore",
+  "block.ttoi.speedy_block": "Speedy Block",
+
+  "block.ttoi.citrine_slab": "Citrine Slab",
+  "block.ttoi.citrine_stairs": "Citrine Stairs",
+  "block.ttoi.citrine_fence": "Citrine Fence",
+  "block.ttoi.citrine_wall": "Citrine Wall",
+  "block.ttoi.citrine_fence_gate": "Citrine Fence Gate",
+
+  "block.ttoi.citrine_button": "Citrine Button",
+  "block.ttoi.citrine_pressure_plate": "Citrine Pressure Plate",
+  "block.ttoi.ebony_door": "Ebony Door",
+  "block.ttoi.ebony_trapdoor": "Ebony Trapdoor",
+
+  "block.ttoi.pink_rose": "Pink Rose",
+  "block.ttoi.potted_pink_rose": "Potted Pink Rose",
+
+  "block.ttoi.winter_window": "Winter Window",
+  "block.ttoi.citrine_lamp": "Citrine Lamp",
+
+  "block.ttoi.cucumber_plant": "Cucumber Plant",
+
+  "block.ttoi.ebony_log": "Ebony Log",
+  "block.ttoi.ebony_planks": "Ebony Planks",
+  "block.ttoi.ebony_wood": "Ebony Wood",
+  "block.ttoi.stripped_ebony_log": "Stripped Ebony Log",
+  "block.ttoi.stripped_ebony_wood": "Stripped Ebony Wood",
+  "block.ttoi.ebony_leaves": "Ebony Leaves",
+  "block.ttoi.ebony_sapling": "Ebony Sapling",
+
+  "block.ttoi.gem_cutting_station": "Gem Cutting Station",
+  "block.ttoi.ebony_sign": "Ebony Sign",
+
+  "itemGroup.ttoitab": "The Thick Of It",
+
+  "item.ttoi.dowsing_rod.no_valuables": "No Valuables Found!",
+  "tooltip.ttoi.dowsing_rod.tooltip.shift": "Right Click to find Valuables!",
+  "tooltip.ttoi.dowsing_rod.tooltip": "Press §eSHIFT§r for more Information!",
+  "tooltip.ttoi.block.speedy_block": "I am speed!",
+
+  "sounds.ttoi.dowsing_rod_found_ore": "Dowsing Rod Found Item Sound",
+  "effect.ttoi.freeze": "Freeze",
+
+  "entity.minecraft.villager.ttoi.gem_cutter": "Gem Cutter",
+
+  "enchantment.ttoi.lightning_striker": "Lightning Striker"
+}

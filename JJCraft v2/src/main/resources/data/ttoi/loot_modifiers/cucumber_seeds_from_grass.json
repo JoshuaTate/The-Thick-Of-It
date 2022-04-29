@@ -1,0 +1,10 @@
+{
+  "conditions": [
+    {
+      "condition": "block_state_property",
+      "block": "minecraft:grass"
+    }
+  ],
+  "addition": "ttoi:cucumber_seeds",
+  "type": "ttoi:cucumber_seeds_from_grass"
+}

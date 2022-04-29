@@ -1,0 +1,6 @@
+{
+    "parent": "ttoi:item/kaupenbow",
+    "textures": {
+        "layer0": "ttoi:item/kaupenbow_pulling_1"
+    }
+}

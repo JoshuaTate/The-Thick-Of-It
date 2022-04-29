@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "ttoi:citrine_ore",
+    "ttoi:citrine_block",
+    "ttoi:raw_citrine_block",
+    "ttoi:deepslate_citrine_ore",
+    "ttoi:netherrack_citrine_ore",
+    "ttoi:endstone_citrine_ore"
+  ]
+}

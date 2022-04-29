@@ -1,0 +1,10 @@
+{
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/creeper"
+    }
+  ],
+  "addition": "ttoi:coal_coke",
+  "type": "ttoi:coal_coke_from_creeper"
+}
