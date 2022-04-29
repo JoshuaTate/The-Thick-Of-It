@@ -6,6 +6,7 @@ import com.jjcraft.ttoi.armour.CorruptedArmourItem;
 import com.jjcraft.ttoi.armour.ModArmourMaterial;
 import com.jjcraft.ttoi.items.GreenIngot;
 import com.jjcraft.ttoi.items.PovertyStaff;
+import com.jjcraft.ttoi.items.Umbrella;
 import com.jjcraft.ttoi.util.ModItemTier;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
@@ -41,6 +42,9 @@ public class ItemInit {
 
     public static final RegistryObject<Item> POVERTY_STAFF = ITEMS.register("poverty_staff",
             () -> new PovertyStaff(new Item.Properties().tab(ModCreativeTab.instance).durability(50)));
+
+    public static final RegistryObject<Item> UMBRELLA = ITEMS.register("umbrella",
+            () -> new Umbrella(new Item.Properties().tab(ModCreativeTab.instance).durability(50)));
 
     // ARMOUR
     public static final RegistryObject<Item> GREEN_HELMET = ITEMS.register("green_helmet",
